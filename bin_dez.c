@@ -57,7 +57,7 @@ int rechner()
          }
         else
         {
-            printf("Das Ergebnis als Dezimalzahl ist: %i",result);
+            printf("Das Ergebnis als Dezimalzahl ist: %i\n",result);
         }
         
         return 0;
