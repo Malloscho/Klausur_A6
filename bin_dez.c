@@ -67,8 +67,9 @@ int main(int argc, char* argv[])
 {
     if(argc < 2)
     {
-       rechner();
-        exit(0);
+       
+        printf("No option recognized. Wrong Usage. Please try -h\n");
+        return 0;
         
     }
     
@@ -85,7 +86,12 @@ int main(int argc, char* argv[])
         case 'v':
             printf("Version 1.0\n");
             exit(0);
-
+                
+                
+            case 'r':
+                rechner();
+                exit(0);
+                
         
 
         case '?':
