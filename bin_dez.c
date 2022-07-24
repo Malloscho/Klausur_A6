@@ -80,7 +80,7 @@ int main(int argc, char* argv[])
         switch(c)
         {
         case 'h':
-            printf("Die Zahlen können nur über den Quellcode eingegeben werden\n");
+            printf("Die Zahlen können nur über den Quellcode eingegeben werden, mit -r kann das Ergebnis ausgegeben werden\n");
             exit(0);
 
         case 'v':
@@ -88,9 +88,9 @@ int main(int argc, char* argv[])
             exit(0);
                 
                 
-            case 'r':
-                rechner();
-                exit(0);
+        case 'r':
+            rechner();
+            exit(0);
                 
         
 
