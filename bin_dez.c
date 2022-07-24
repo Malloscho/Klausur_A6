@@ -73,11 +73,10 @@ int main(int argc, char* argv[])
     }
     
     
-
-    while(true)
+    int c;
+    while((c = getopt(argc, argv, "hv"))!=1)
     {
-        int option = getopt(argc, argv, "hv");
-        switch(option)
+        switch(c)
         {
         case 'h':
             printf("Die Zahlen können nur über den Quellcode eingegeben werden\n");
