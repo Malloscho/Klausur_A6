@@ -75,7 +75,7 @@ int main(int argc, char* argv[])
     
     
     int c;
-    while((c = getopt(argc, argv, "hv"))!=1)
+    while((c = getopt(argc, argv, "hvr?"))!=1)
     {
         switch(c)
         {
